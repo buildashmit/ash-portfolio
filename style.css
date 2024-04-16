@@ -1,0 +1,133 @@
+body{
+  background-color:rgb(6, 6, 41);
+  color: white;
+}
+
+*{
+  margin: 0.2%;
+  padding: 0%
+  
+}
+
+.a{
+  font-family: 'Segoe UI';
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color:  rgb(23, 23, 93);
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin: 0 23px;
+}
+
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover{
+  color: rgb(116, 116, 229);
+  font-size: 1.02rem;
+}
+
+#element{
+  color: rgba(64, 108, 19, 0.501);
+}
+
+
+.left{
+  font-family: 'Segoe UI';
+  font-size: 2rem;
+}
+
+
+.right{
+  font-family: 'Segoe UI';
+  
+}
+
+
+.vertical{
+  border-left: 6px solid rgb(81, 25, 106);
+  height: 100px;
+  position: absolute;
+  left: 50%;
+}
+
+.vertical1{
+  border-left: 6px solid rgb(81, 25, 106);
+  height: 230px;
+  position: absolute;
+  left: 50%;
+}
+
+.vertical2{
+  border-left: 6px solid rgb(81, 25, 106);
+  height: 70px;
+  position: absolute;
+  left: 50%;
+}
+
+
+.vertical3{
+  
+  position: absolute;
+  left: 1%;
+}
+
+.container { 
+  background-color: rgb(192, 192, 192); 
+  width: 15%; 
+  border-radius: 20px; 
+} 
+
+.skill { 
+  background-color: rgb(116, 194, 92); 
+  color: white; 
+  padding: 0%; 
+  text-align: center; 
+  font-size: 15px; 
+  border-radius: 20px; 
+} 
+
+
+.WEB-DEV{
+  width:45%;
+}
+
+.DSA{
+  width: 55%;
+}
+
+.python{
+  width: 60%;
+}
+
+.PROMPT{
+  width: 80%;
+}
+
+.git{
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
