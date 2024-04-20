@@ -1,12 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-color:rgb(6, 6, 41);
   color: white;
-}
-
-*{
-  margin: 0.2%;
-  padding: 0%
-  
 }
 
 .a{
@@ -46,6 +45,42 @@ nav ul li a:hover{
   color: rgba(64, 108, 19, 0.501);
 }
 
+.education-detail{
+  height: 120px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Gill Sans';
+}
+
+@media screen and (max-width: 480px) {
+  .education-detail{
+    height: 160px;
+  }
+}
+
+.education-detail h3{
+  text-align: center;
+}
+.vertical{
+  border-left: 6px solid rgb(81, 25, 106);
+  height: inherit;
+  position: absolute;
+  left: 50%;
+}
+
+.education-left{
+  margin-top: 30px;
+  width: 47%;
+}
+
+.education-right{
+  margin-top: 30px;
+  text-align: right;
+  width: 47%;
+}
 
 .left{
   font-family: 'Segoe UI';
@@ -55,22 +90,6 @@ nav ul li a:hover{
 
 .right{
   font-family: 'Segoe UI';
-  
-}
-
-
-.vertical{
-  border-left: 6px solid rgb(81, 25, 106);
-  height: 100px;
-  position: absolute;
-  left: 50%;
-}
-
-.vertical1{
-  border-left: 6px solid rgb(81, 25, 106);
-  height: 230px;
-  position: absolute;
-  left: 50%;
 }
 
 .vertical2{
@@ -87,9 +106,34 @@ nav ul li a:hover{
   left: 1%;
 }
 
+.skill-detail{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vertical1{
+  border-left: 6px solid rgb(81, 25, 106);
+  height: inherit;
+  height: 220px;
+  position: absolute;
+  left: 50%;
+}
+
+.skill-left{
+  margin-top: 30px;
+  width: 47%;
+}
+.skill-right{
+  margin-top: 30px;
+  width: 47%;
+}
+
 .container { 
   background-color: rgb(192, 192, 192); 
-  width: 15%; 
+  width: 80%; 
   border-radius: 20px; 
 } 
 
