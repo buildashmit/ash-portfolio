@@ -13,6 +13,11 @@ body{
   font-family: 'Segoe UI';
 }
 
+img{
+  border-radius: 47%;
+}
+
+
 nav{
   display: flex;
   justify-content: space-around;
@@ -79,12 +84,18 @@ nav ul li a:hover{
 .education-left{
   margin-top: 30px;
   width: 47%;
+  animation-name: eduanime;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(0, 0, 0.15, 0.98);
 }
 
 .education-right{
   margin-top: 30px;
   text-align: right;
   width: 47%;
+  animation-name: eduright;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(0, 0, 0.15, 0.98);
 }
 
 .left{
@@ -130,10 +141,16 @@ nav ul li a:hover{
 .skill-left{
   margin-top: 30px;
   width: 47%;
+  animation-name: skillleft;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0, 0, 0.15, 0.98);
 }
 .skill-right{
   margin-top: 30px;
   width: 47%;
+  animation-name: eduright;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(0, 0, 0.15, 0.98);
 }
 
 .container { 
@@ -190,6 +207,37 @@ nav ul li a:hover{
   text-align: center;
   margin-left: 4%;
 }
+
+
+@keyframes eduanime {
+  from{
+      transform: translateX(400px)
+  }
+  to{
+
+  }
+}
+
+
+@keyframes skillleft {
+  from{
+    transform: translateX(150px)
+  }
+  to{
+    
+  }
+}
+
+@keyframes eduright {
+  from{
+    transform: translateX(-180px)
+  }
+  to{
+    
+  }
+}
+
+
 
 
 
